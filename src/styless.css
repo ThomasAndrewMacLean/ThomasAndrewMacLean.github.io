@@ -1,5 +1,6 @@
 body {
     height: 842px;
+    margin: 0;
     width: 595px;
     border: 1px solid grey;
     background: rgb(250, 250, 250);
@@ -21,9 +22,13 @@ header {
 }
 
 .bedrijf-wrap {
-    outline: 1px solid lightblue;
     overflow: hidden;
     vertical-align: -webkit-baseline-middle;
+}
+
+.uitleg {
+    clear: both;
+    font-size: 11px;
 }
 
 .bedrijf {
