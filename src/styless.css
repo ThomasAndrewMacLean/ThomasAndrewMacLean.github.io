@@ -1,5 +1,5 @@
 body {
-    height: 842px;
+    min-height: 842px;
     margin: 0;
     /* width: 595px; */
     /* border: 1px solid light-grey; */
@@ -107,5 +107,5 @@ ul {
 .hobby {
     font-size: 13px;
     color: #333;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
