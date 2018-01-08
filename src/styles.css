@@ -1,21 +1,51 @@
-body{
+body {
     height: 842px;
     width: 595px;
     border: 1px solid grey;
     background: rgb(250, 250, 250);
     font-family: Roboto, sans-serif;
-    font-weight:400;
-    -webkit-font-smoothing:antialiased;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
 }
 
-header{
+header {
     background: goldenrod;
     color: white;
     font-size: 18px;
-    box-shadow:0 2px 5px rgba(0,0,0,.26);
-    padding:16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+    padding: 16px;
 }
 
-.content{
-margin:60px;
+.content {
+    margin: 60px;
+}
+
+.bedrijf-wrap {
+    outline: 1px solid lightblue;
+    overflow: hidden;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.bedrijf {
+    float: left;
+    clear: left;
+    font-size: 15px;
+}
+
+.discription {
+    float: right;
+    font-size: 15px;
+   
+}
+
+p {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
 }
