@@ -85,6 +85,7 @@ ul {
 
 .kwart-wrap {
     margin: 16px 0;
+    overflow: hidden;
 }
 
 .kwart {
@@ -112,7 +113,7 @@ ul {
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 	.content{
 		max-width: 90%;
 	
