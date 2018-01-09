@@ -91,6 +91,7 @@ ul {
     font-size: 13px;
     float: left;
     width: 25%;
+    min-width: 145px;
     height: 30px;
     white-space: nowrap;
     color: #333;
@@ -114,5 +115,9 @@ ul {
 	.content{
 		max-width: 90%;
 	
+	}
+	
+	.kwart {
+		width:33%;
 	}
 }
