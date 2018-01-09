@@ -111,8 +111,8 @@ ul {
 }
 
 @media screen and (max-width: 500px){
-	.bedrijf{
-		font-size: 11px;
-		color: green;
+	.content{
+		max-width: 90%;
+	
 	}
 }
