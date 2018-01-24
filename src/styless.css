@@ -104,7 +104,6 @@ ul {
 
 .kwart:last-child {
     padding-bottom: 20px;
-    clear:both;
 }
 
 .kwart::before {
