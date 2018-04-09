@@ -102,10 +102,10 @@ ul {
     color: #333;
 }
 
-.kwart:last-child {
+/* .kwart:last-child {
     padding-bottom: 20px;
     clear:both;
-}
+} */
 
 .kwart::before {
     content: '-';
