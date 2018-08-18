@@ -16,9 +16,9 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
     padding: 16px;
     position: fixed;
-    top:0;
-    left:0;
-    right:0;
+    top: 0;
+    left: 0;
+    right: 0;
     vertical-align: text-bottom;
 }
 
@@ -92,6 +92,29 @@ ul {
     overflow: hidden;
 }
 
+tr {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+.kwart-table {
+    font-size: 13px;
+    float: left;
+    width: 25%;
+    min-width: 145px;
+    height: 30px;
+    white-space: nowrap;
+    color: #333;
+    width: 25%;
+}
+
+th {
+    display: none;
+}
+
 .kwart {
     font-size: 13px;
     float: left;
@@ -107,7 +130,6 @@ ul {
     clear:both;
 } */
 
-
 .kwart::before {
     content: '-';
 }
@@ -118,13 +140,11 @@ ul {
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 600px){
-	.content{
-		max-width: 90%;
-	
-	}
-	
-	.kwart {
-		width:33%;
-	}
+@media screen and (max-width: 600px) {
+    .content {
+        max-width: 90%;
+    }
+    .kwart {
+        width: 33%;
+    }
 }

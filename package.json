@@ -1,28 +1,30 @@
 {
-  "name": "thomasandrewmaclean.github.io",
-  "version": "1.0.0",
-  "description": "cv online",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ThomasAndrewMacLean/ThomasAndrewMacLean.github.io.git"
-  },
-  "keywords": [
-    "cv"
-  ],
-  "author": "thomas maclean",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ThomasAndrewMacLean/ThomasAndrewMacLean.github.io/issues"
-  },
-  "homepage": "https://github.com/ThomasAndrewMacLean/ThomasAndrewMacLean.github.io#readme",
-  "devDependencies": {},
-  "dependencies": {
-    "html2canvas": "^1.0.0-alpha.12",
-    "jspdf": "^1.4.1"
-  }
+    "name": "thomasandrewmaclean.github.io",
+    "version": "1.0.0",
+    "description": "cv online",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ThomasAndrewMacLean/ThomasAndrewMacLean.github.io.git"
+    },
+    "keywords": [
+        "cv"
+    ],
+    "author": "thomas maclean",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ThomasAndrewMacLean/ThomasAndrewMacLean.github.io/issues"
+    },
+    "homepage": "https://github.com/ThomasAndrewMacLean/ThomasAndrewMacLean.github.io#readme",
+    "devDependencies": {
+        "parcel-bundler": "^1.9.7",
+        "serve": "^9.6.0"
+    },
+    "dependencies": {
+        "html2canvas": "^1.0.0-alpha.12",
+        "jspdf": "^1.4.1"
+    }
 }
