@@ -49,6 +49,16 @@ header {
     vertical-align: text-bottom;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .title {
     color: goldenrod;
     clear: both;
