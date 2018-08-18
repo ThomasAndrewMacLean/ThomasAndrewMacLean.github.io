@@ -9,6 +9,21 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+#dwnbtn {
+    cursor: pointer;
+    background: goldenrod;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    color: white;
+}
+
 header {
     background: goldenrod;
     color: white;
