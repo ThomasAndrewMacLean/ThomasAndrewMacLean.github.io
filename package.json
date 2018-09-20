@@ -20,6 +20,6 @@
     },
     "homepage": "https://github.com/ThomasAndrewMacLean/ThomasAndrewMacLean.github.io#readme",
     "devDependencies": {
-        "serve": "^9.6.0"
+        "serve": "^10.0.1"
     }
 }
