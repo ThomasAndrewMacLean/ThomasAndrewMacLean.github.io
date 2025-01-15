@@ -1,3 +1,7 @@
+@page {
+  size: auto;
+  margin: 0mm;
+}
 body {
     min-height: 842px;
     margin: 0;
@@ -35,6 +39,8 @@ header {
     left: 0;
     right: 0;
     vertical-align: text-bottom;
+       -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
 }
 
 .head-wrap {
